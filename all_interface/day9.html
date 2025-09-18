@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 9: Siddhidatri</title>
+    <link rel="icon" type="image/png" href="images/diwali.png">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #fff5e6;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background: #d62828;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            text-shadow: 0 0 10px yellow;
+        }
+        
+        .content {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        
+        img {
+            width: 100%;
+            height: auto;
+            /* keeps full proportion */
+            max-height: 500px;
+            object-fit: contain;
+            /* show entire image */
+            border-radius: 10px;
+            background: #fff;
+            /* keeps background clean if image has transparent parts */
+            padding: 10px;
+        }
+        
+        h2 {
+            color: #d62828;
+            margin-top: 20px;
+        }
+        
+        p {
+            text-align: justify;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: white;
+            background: #d62828;
+            padding: 10px 20px;
+            border-radius: 6px;
+        }
+        
+        a:hover {
+            background: #a4161a;
+        }
+        /* ===== Floating Navigation Bar ===== */
+        
+        .navbar {
+            position: fixed;
+            bottom: 10px;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            /* pushes buttons to opposite corners */
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+        
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 18px;
+            border-radius: 6px;
+            background: #d62828;
+            transition: background 0.3s;
+        }
+        
+        .navbar a:hover {
+            background: #a4161a;
+        }
+        /* ===== Mantra Style ===== */
+        
+        .mantra {
+            margin-top: 30px;
+            padding: 15px;
+            text-align: center;
+            background: rgba(255, 230, 150, 0.7);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        .mantra h3 {
+            color: #d62828;
+            margin-bottom: 10px;
+            text-shadow: 0 0 8px gold;
+        }
+        
+        .mantra p {
+            font-size: 20px;
+            font-weight: lighter;
+            text-align: center;
+            color: #444343;
+            font-family: "Noto Sans Devanagari", serif;
+        }
+        /* ===== Attributes Box ===== */
+        
+        .attributes,
+        .significance,
+        .mantra {
+            margin-top: 25px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.9);
+            border-left: 6px solid #d62828;
+            border-radius: 10px;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        .attributes h3,
+        .significance h3,
+        .mantra h3 {
+            color: #d62828;
+            margin-bottom: 10px;
+        }
+        
+        .attributes ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .attributes li {
+            padding: 5px 0;
+            font-size: 16px;
+        }
+        /* ===== Music Controls ===== */
+        
+        .music-controls {
+            margin-top: 25px;
+            text-align: center;
+        }
+        
+        .music-controls button {
+            background: #d62828;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+        
+        .music-controls button:hover {
+            background: #a4161a;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Day 9: Siddhidatri</h1>
+    </header>
+    <div class="content">
+        <img src="images/siddhidatri.png" alt="Siddhidatri">
+        <h2>About Goddess Siddhidatri</h2>
+        <p>Siddhidatri is the ninth form of Goddess Durga, worshipped on the final day of Navratri. She is the giver of all siddhis (supernatural powers) and blessings. She sits on a lotus and sometimes rides a lion.</p>
+        <p>She has four arms — carrying a mace, discus, lotus, and conch. She is worshipped by humans, sages, gods, and even demons. Devotees believe she grants success, wisdom, and perfection. She completes the cycle of Navratri, symbolizing fulfillment
+            and divine grace.</p>
+        <div class="attributes">
+            <h3>✨ Attributes of Goddess Siddhidatri</h3>
+            <ul>
+                <li><b>Vehicle:</b> Lion</li>
+                <li><b>Weapon:</b> Lotus, mace, discus, conch</li>
+                <li><b>Symbol:</b> Siddhis (spiritual powers)</li>
+                <li><b>Chakra:</b> All Chakras</li>
+            </ul>
+        </div>
+        <div class="significance">
+            <h3>🌸 Significance</h3>
+            She fulfills desires, grants wisdom, and blesses with success in spiritual life.
+        </div>
+        <div class="mantra">
+            <h3>🙏 Navratri Mantra 🙏</h3>
+            <p>'नन्दगोप गृहे जाता यशोदा-गर्भ-सम्भवा । <br>ततस्तौ नाशयिष्यामि, विन्ध्याचल निवासिनी ।।</p>
+        </div>
+
+        <div class="navbar">
+            <a href="C:\Users\adity\OneDrive\Desktop\Files\projects\Navratri_pooja\full_interface\index.html" class="left-btn">🏠 Home</a>
+            <a href="day1.html" class="right-btn">➡ first Page</a>
+        </div>
+    </div>
+</body>
+
+</html>

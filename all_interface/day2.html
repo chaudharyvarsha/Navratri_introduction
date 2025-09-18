@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2: Brahmacharini</title>
+    <link rel="icon" type="image/png" href="images/diwali.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #fff5e6;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background: #d62828;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            text-shadow: 0 0 10px yellow;
+        }
+        
+        .content {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        
+        img {
+            width: 100%;
+            height: auto;
+            /* keeps full proportion */
+            max-height: 500px;
+            object-fit: contain;
+            /* show entire image */
+            border-radius: 10px;
+            background: #fff;
+            /* keeps background clean if image has transparent parts */
+            padding: 10px;
+        }
+        
+        h2 {
+            color: #d62828;
+            margin-top: 20px;
+        }
+        
+        p {
+            text-align: justify;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: white;
+            background: #d62828;
+            padding: 10px 20px;
+            border-radius: 6px;
+        }
+        
+        a:hover {
+            background: #a4161a;
+        }
+        
+        button {
+            background: #d62828;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+        
+        button:hover {
+            background: #a4161a;
+        }
+        /* ===== Floating Navigation Bar ===== */
+        
+        .navbar {
+            position: fixed;
+            bottom: 10px;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            /* pushes buttons to opposite corners */
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+        
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 18px;
+            border-radius: 6px;
+            background: #d62828;
+            transition: background 0.3s;
+        }
+        
+        .navbar a:hover {
+            background: #a4161a;
+        }
+        /* ===== Mantra Style ===== */
+        
+        .mantra {
+            margin-top: 30px;
+            padding: 15px;
+            text-align: center;
+            background: rgba(255, 230, 150, 0.7);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        .mantra h3 {
+            color: #d62828;
+            margin-bottom: 10px;
+            text-shadow: 0 0 8px gold;
+        }
+        
+        .mantra p {
+            font-size: 20px;
+            font-weight: lighter;
+            text-align: center;
+            color: #444343;
+            font-family: "Noto Sans Devanagari", serif;
+        }
+        /* ===== Attributes Box ===== */
+        
+        .attributes,
+        .significance,
+        .mantra {
+            margin-top: 25px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.9);
+            border-left: 6px solid #d62828;
+            border-radius: 10px;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        .attributes h3,
+        .significance h3,
+        .mantra h3 {
+            color: #d62828;
+            margin-bottom: 10px;
+        }
+        
+        .attributes ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .attributes li {
+            padding: 5px 0;
+            font-size: 16px;
+        }
+        /* ===== Music Controls ===== */
+        
+        .music-controls {
+            margin-top: 25px;
+            text-align: center;
+        }
+        
+        .music-controls button {
+            background: #d62828;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+        
+        .music-controls button:hover {
+            background: #a4161a;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Day 2: Brahmacharini</h1>
+    </header>
+    <div class="content">
+        <img src="images/Brahmacharini.png" alt="Brahmacharini">
+        <h2>About Goddess Brahmacharini</h2>
+        <p>Brahmacharini is the second form of Goddess Durga, worshipped on the second day of Navratri. She represents devotion, penance, and meditation. She holds a rosary in one hand and a water pot (kamandalu) in the other.</p>
+        <p>She performed severe penance for thousands of years to obtain Lord Shiva as her husband. She is a symbol of patience, strength, and self-control. Worshippers seek her blessings for wisdom, peace, and liberation. In yoga, she governs the Swadhisthana
+            (sacral) chakra.</p>
+        <div class="attributes">
+            <h3>✨ Attributes of Goddess Brahmacharini</h3>
+            <ul>
+                <li><b>Vehicle:</b> Walks barefoot</li>
+                <li><b>Weapon:</b> None (Rosary & Kamandalu)</li>
+                <li><b>Symbol:</b> Tapasya & Devotion</li>
+                <li><b>Chakra:</b> Swadhisthana (Sacral)</li>
+            </ul>
+        </div>
+        <div class="significance">
+            <h3>🌸 Significance</h3>
+            She grants wisdom, virtue, and inner strength.
+        </div>
+        <div class="mantra">
+            <h3>🙏 Navratri Mantra 🙏</h3>
+            <p>दधाना करपद्माभ्यामक्षमालाकमण्डलू। <br>देवी प्रसीदतु मयि ब्रह्मचारिण्यनुत्तमां || </p>
+        </div>
+
+
+        <audio id="bg-music" autoplay loop>
+        <source src="bhajan.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+        </audio>
+
+        <!-- Music Controls -->
+        <div style="text-align:center; margin:20px;" class="music-controls">
+            <button onclick="document.getElementById('bg-music').play()">▶ Play Music</button>
+            <button onclick="document.getElementById('bg-music').pause()">⏸ Pause Music</button>
+        </div>
+        <div class="navbar">
+            <a href="C:\Users\adity\OneDrive\Desktop\Files\projects\Navratri_pooja\full_interface\index.html" class="left-btn">🏠 Home</a>
+            <a href="day3.html" class="right-btn">➡ Next</a>
+        </div>
+
+    </div>
+</body>
+
+</html>
